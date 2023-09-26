@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body{
+    background-color:rgb(217, 244, 244)
+}
+.container
+{
+    text-align: center;
+    margin: 23px 0px;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(41, 41, 75);
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 33.5px;
+    border: 2.5px solid black;
+    border-radius: 4px;
+}
+button{
+    border-color: rgb(219, 248, 238);
+    border: 1.7px solid rgb(65, 55, 55);
+    border-radius: 3.5px;
+    font-size: 23px;
+    font-weight: 40px;
+    height: 70px;
+    width: 101px;
+    cursor: pointer;
+    
+}
+button:hover{
+    font-weight: bold;
+}
+.calculator
+{
+    display: inline-block;
+    background-color: rgb(207, 161, 161);
+    border-radius: 7px;
+    /* box-shadow: 0 2px 5px rgb(74, 60, 60); */
+    box-shadow: 0 -2px 12px rgb(74, 60, 60);
+    padding: 40px 10px 10px 10px;
+}
